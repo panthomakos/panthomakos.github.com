@@ -1,0 +1,11 @@
+permalink: /:year/:month/:day/:title
+auto: true
+
+title : a.blog.about.code
+tagline: '{ topic: "code", type: "blog", author: "pan thomakos" }'
+author :
+  name : Pan Thomakos
+  github : panthomakos
+  twitter : panthomakos
+
+url: ablogaboutcode.com
