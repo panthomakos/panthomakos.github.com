@@ -7,7 +7,7 @@ tagline: '{ topic: "code", type: "blog", author: "pan thomakos" }'
 author :
   name : Pan Thomakos
   github : panthomakos
-  twitter : panthomakos
+  gems : 47511
 
 feedburner : ablogaboutcode
 disqus : ablogaboutcode

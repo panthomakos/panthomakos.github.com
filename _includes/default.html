@@ -4,40 +4,39 @@
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
    <meta name="author" content="{{ site.author.name }}" />
-   <link href="http://feeds.feedburner.com/{{ site.feedburner }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+     <link href="http://feeds.feedburner.com/{{ site.feedburner }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
 
-   <link rel="stylesheet" href="/assets/syntax.css" type="text/css" />
-   <link rel="stylesheet" href="/assets/screen.css" type="text/css" media="screen, projection" />
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</head>
-<body>
+     <link rel="stylesheet" href="/assets/syntax.css" type="text/css" />
+     <link rel="stylesheet" href="/assets/screen.css" type="text/css" media="screen, projection" />
+     <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
 
-  <div class="site">
-    <div class="title">
-      <a href="/">{{ site.title }}</a>
-      <a class="extra" href="/archive.html">Archive</a>
-      <a class="extra" href="/categories.html">Categories</a>
-      <a class="extra" href="/tags.html">Tags</a>
-    </div>
-    {{ content }}
-    <div class="footer">
-      <div class="contact">
-        <p>
-          {{ site.author.name }}<br />
-          {{ site.tagline }}
-        </p>
+    <div class="site">
+      <div class="title">
+        <a href="/">{{ site.title }}</a>
+        <a class="extra" href="/archive.html">Archive</a>
+        <a class="extra" href="/categories.html">Categories</a>
+        <a class="extra" href="/tags.html">Tags</a>
       </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
-        </p>
-      </div>
-      <div class="rss">
+      {{ content }}
+      <div class="footer">
+        <div class="contact">
+          <p>
+            {{ site.author.name }}<br />
+            {% include twitter %}
+          </p>
+        </div>
+        <div class="contact">
+          <p>
+            <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
+            <a href="https://rubygems.org/profiles/{{ site.author.gems }}">My RubyGems</a>
+          </p>
+        </div>
+        <div class="rss">
         <a href="http://feeds.feedburner.com/{{ site.feedburner }}">
           <img src="/assets/rss.png" alt="Subscribe to RSS Feed" />
-          Subscribe
         </a>
       </div>
     </div>
