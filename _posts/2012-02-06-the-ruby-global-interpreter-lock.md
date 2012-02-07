@@ -2,7 +2,7 @@
 layout : post
 title : The Ruby Global Interpreter Lock
 category : Under the Hood
-tags : [gil, ruby, threads]
+tags : [ruby]
 ---
 All of the code in this post was executed on Ruby 1.9.3 in February 2012.
 Ruby MRI refers to the C implementation of Ruby.

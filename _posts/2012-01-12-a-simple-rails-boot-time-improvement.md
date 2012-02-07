@@ -2,7 +2,7 @@
 layout : post
 title : A Simple Rails Boot Time Improvement
 category : Refactoring
-tags : [gem, ruby, performance, rails]
+tags : [ruby, performance, rails]
 ---
 This simple improvement can have varying effects on the application depending on
 how many Gems you require. Before you actually jump into this I would definitely
