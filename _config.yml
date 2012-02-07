@@ -9,9 +9,12 @@ author :
   name : Pan Thomakos
   github : panthomakos
   gems : 47511
+  about : panthomakos
 
 feedburner : ablogaboutcode
 disqus : ablogaboutcode
+
+url : http://ablogaboutcode.com/
 
 google :
   tracking_id : UA-28969585-1

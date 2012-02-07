@@ -16,7 +16,7 @@
     <div class="site">
       <div class="title">
         <a href="/">{{ site.title }}</a>
-        <a class="extra" href="/archive.html">Archive</a>
+        <a class="extra" href="http://about.me/{{ author.about }}">About</a>
         <a class="extra" href="/categories.html">Categories</a>
         <a class="extra" href="/tags.html">Tags</a>
       </div>
@@ -24,14 +24,15 @@
       <div class="footer">
         <div class="contact">
           <p>
-            {{ site.author.name }}<br />
+            {{ site.tagline }}<br />
             {% include twitter %}
           </p>
         </div>
         <div class="contact">
           <p>
             <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-            <a href="https://rubygems.org/profiles/{{ site.author.gems }}">My RubyGems</a>
+            <a href="https://rubygems.org/profiles/{{ site.author.gems }}">My RubyGems</a><br />
+            {% include feedburner %}
           </p>
         </div>
         <div class="rss">
