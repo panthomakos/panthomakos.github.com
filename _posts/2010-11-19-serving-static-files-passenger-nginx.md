@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Serving Static Files with Passenger and Nginx
-slug: serving-static-files-passenger-nginx
 category : Tutorial
 tags : [nginx, passenger, rails]
 ---
