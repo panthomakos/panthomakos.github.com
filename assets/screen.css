@@ -142,6 +142,21 @@ ul.posts {
         border: 0;
       }
 
+#share {
+  height: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#share .text{
+  float: left;
+  margin-right: 1em;
+}
+
+#share .content{
+  float: left;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
