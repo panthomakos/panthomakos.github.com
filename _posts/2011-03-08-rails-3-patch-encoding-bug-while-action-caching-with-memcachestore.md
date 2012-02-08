@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 3 Patch: Encoding Bug while Action Caching with MemCacheStore'
-categories: [Review]
+category: Review
 tags: [rails, ruby]
 ---
 

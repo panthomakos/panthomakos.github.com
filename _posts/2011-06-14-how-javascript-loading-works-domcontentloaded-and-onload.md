@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Javascript Loading Works - DOMContentLoaded and OnLoad
-categories: [Best Practies, Tutorial]
+categories: [Best Practices, Tutorial]
 tags: [dom, javascript, jQuery, performance]
 ---
 

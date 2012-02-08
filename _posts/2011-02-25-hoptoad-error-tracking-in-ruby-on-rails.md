@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hoptoad Error Tracking in Ruby on Rails
-categories: [Review]
-tags: [hoptoad rails]
+category: Review
+tags: [hoptoad, rails]
 ---
 
 What do you do with error messages from your production servers? I used to have

@@ -1,12 +1,10 @@
 ---
 layout: post
 title: ActiveRecord 3.1 - Mass-Assignment Roles
-categories: [Reviews]
+category: Review
 tags:
-- active-record
-- complaints
-- rails-3.1
-- ruby on rails
+  - active record
+  - rails
 ---
 
 [Rails 3.1 introduces the concept of mass-assignment roles][ma] which allow you

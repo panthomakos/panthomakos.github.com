@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FULLTEXT Index and SPATIAL Index - MySQL Compatible Rake Tasks
-category: Tutorials
+category: Tutorial
 tags: [metaprogramming, mysql, rails]
 ---
 

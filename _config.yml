@@ -1,20 +1,20 @@
 permalink: /:year/:month/:day/:title
 auto: true
-pygments : true
-markdown : rdiscount
+pygments: true
+markdown: rdiscount
 
-title : a.blog.about.code
+title: a.blog.about.code
 tagline: '{ topic: "code", type: "blog", author: "pan thomakos" }'
-author :
-  name : Pan Thomakos
-  github : panthomakos
-  gems : 47511
-  about : panthomakos
+author:
+  name: Pan Thomakos
+  github: panthomakos
+  gems: 47511
+  about: panthomakos
 
-feedburner : ablogaboutcode
-disqus : ablogaboutcode
+feedburner: ablogaboutcode
+disqus: ablogaboutcode
 
-url : http://ablogaboutcode.com/
+url: http://ablogaboutcode.com/
 
-google :
-  tracking_id : UA-28969585-1
+google:
+  tracking_id: UA-28969585-1

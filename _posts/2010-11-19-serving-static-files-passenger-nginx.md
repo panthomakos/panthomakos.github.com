@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Serving Static Files with Passenger and Nginx
-category : Tutorial
-tags : [nginx, passenger, rails]
+category: Tutorial
+tags: [nginx, passenger, rails]
 ---
 
 The [X-Accel-Redirect HTTP header][x-accel] is used on Nginx servers to allow

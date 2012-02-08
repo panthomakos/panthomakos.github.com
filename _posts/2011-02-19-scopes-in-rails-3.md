@@ -1,9 +1,12 @@
 ---
-layout : post
-title : Scopes in Rails 3
-slug: scopes-in-rails-3
-category : Tutorial
-tags : [ruby, active-record, rails, refactoring]
+layout: post
+title: Scopes in Rails 3
+category: Tutorial
+tags:
+  - ruby
+  - active record
+  - rails
+  - refactoring
 ---
 
 Scopes have become much more useful in Ruby on Rails 3 with the adoption of
