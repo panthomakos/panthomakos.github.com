@@ -78,12 +78,18 @@ ul.posts {
 /*
 /*****************************************************************************/
 
+.container {
+  min-width: 35em;
+  max-width: 50em;
+  margin: 0 auto;
+}
+
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
+  float: left;
 }
 
 .title {
@@ -142,19 +148,24 @@ ul.posts {
         border: 0;
       }
 
-#share {
-  height: 0.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
+#social-float {
+  position: fixed;
+  top: 10px;
+  right: 0em;
 
-#share .text{
-  float: left;
-  margin-right: 1em;
-}
+  width: 55px;
+  padding: 10px 5px;
+  margin-left: -45em;
+  text-align: center;
 
-#share .content{
-  float: left;
+  background-color: #fff;
+
+  border: 5px solid rgba(180, 180, 180, .7);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  display: none;
 }
 
 /*****************************************************************************/

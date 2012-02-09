@@ -12,36 +12,37 @@
      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
-
-    <div class="site">
-      <div class="title">
-        <a href="/">{{ site.title }}</a>
-        <a class="extra" href="http://about.me/{{ site.author.about }}">About</a>
-        <a class="extra" href="/categories.html">Categories</a>
-        <a class="extra" href="/tags.html">Tags</a>
-      </div>
-      {{ content }}
-      <div class="footer">
-        <div class="contact">
-          <p>
+    <div class="container">
+      <div class="site">
+        <div class="title">
+          <a href="/">{{ site.title }}</a>
+          <a class="extra" href="http://about.me/{{ site.author.about }}">About</a>
+          <a class="extra" href="/categories.html">Categories</a>
+          <a class="extra" href="/tags.html">Tags</a>
+        </div>
+        {{ content }}
+        <div class="footer">
+          <div class="contact">
+            <p>
             {{ site.tagline }}<br />
             {% include twitter %}
-          </p>
-        </div>
-        <div class="contact">
-          <p>
+            </p>
+          </div>
+          <div class="contact">
+            <p>
             <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
             <a href="https://rubygems.org/profiles/{{ site.author.gems }}">My RubyGems</a><br />
             {% include feedburner %}
-          </p>
+            </p>
+          </div>
+          <div class="rss">
+            <a href="http://feeds.feedburner.com/{{ site.feedburner }}">
+              <img src="/assets/rss.png" alt="Subscribe to RSS Feed" />
+            </a>
+          </div>
         </div>
-        <div class="rss">
-        <a href="http://feeds.feedburner.com/{{ site.feedburner }}">
-          <img src="/assets/rss.png" alt="Subscribe to RSS Feed" />
-        </a>
       </div>
     </div>
-  </div>
-  {% include analytics %}
-</body>
+    {% include analytics %}
+  </body>
 </html>
