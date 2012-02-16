@@ -84,6 +84,10 @@ ul.posts {
   margin: 0 auto;
 }
 
+#disqus_thread{
+  max-width: 45em;
+}
+
 .site {
   font-size: 110%;
   text-align: justify;
