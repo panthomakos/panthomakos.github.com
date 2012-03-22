@@ -2,7 +2,9 @@
 layout: post
 title: Respect the Active Record
 category: Best Practices
-tags: [rails, active record]
+tags:
+  - rails
+  - active record
 ---
 
 Here's some bad Rails code I often come across:
