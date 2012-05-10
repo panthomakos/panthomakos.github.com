@@ -30,6 +30,8 @@ REGEXPS = [
 ]
 
 def pull(dep)
+  required_file = nil
+
   begin
     Array(dep.autorequire || dep.name).each do |file|
       required_file = file
