@@ -1,7 +1,6 @@
 permalink: /:year/:month/:day/:title
-auto: true
-pygments: true
-markdown: rdiscount
+highlighter: rouge
+markdown: kramdown
 
 title: a.blog.about.code
 tagline: '{ topic: "code", type: "blog", author: "pan thomakos" }'
