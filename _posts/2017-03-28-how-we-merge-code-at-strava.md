@@ -2,7 +2,7 @@
 layout: post
 title: How Strava Merges Code
 category: News
-tags: [productivity git]
+tags: [productivity, git]
 ---
 
 I wrote a post for Strava's Engineering Blog about how we merge code:
