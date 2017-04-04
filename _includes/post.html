@@ -6,9 +6,7 @@
   {{ content }}
 </div>
 
-<div id="social-float">
-  <div class="sf-twitter">{% include share %}</div>
-</div>
+<div id="shareRoundIconsFooter"></div>
 
 <div id="related">
   <h2>Related Posts</h2>
@@ -31,25 +29,23 @@
     })();
 </script>
 
-<script type="text/javascript" src="/assets/jquery-1.7.1.min.js"></script>
-<script type="text/javascript">
-  var bar = null;
-  var post = null;
-  var adjust = null;
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+<script>
   (function($){
-    post = $('#post');
-    bar = $('#social-float');
-    adjust = function(){
-      if ($(window).width() < 760)
-        bar.hide();
-      else {
-        var right = post.position().left-bar.width()-27;
-        bar.css('right', right+'px')
-        bar.show();
-      }
-    }
-    $(document).ready(adjust);
-    $(window).resize(adjust);
+    jsSocials.setDefaults("twitter", {
+      via: "panthomakos"
+    });
+    $("#shareRoundIconsFooter").jsSocials({
+      showLabel: false,
+      showCount: false,
+      shares: [
+        "email",
+        "twitter",
+        "facebook",
+        "googleplus",
+        "linkedin"
+      ]
+    });
   })(jQuery);
 </script>
