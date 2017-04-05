@@ -1,20 +1,29 @@
 permalink: /:year/:month/:day/:title
 highlighter: rouge
 markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 title: a.blog.about.code
 tagline: '{ topic: "code", type: "blog", author: "pan thomakos" }'
-author:
-  name: Pan Thomakos
-  github: panthomakos
-  gems: 47511
-  about: panthomakos
-  twitter: panthomakos
+description: '{ topic: "code", type: "blog", author: "pan thomakos" }'
+author: Pan Thomakos
+github_username: panthomakos
+twitter_username: panthomakos
 
-feedburner: ablogaboutcode
-disqus: ablogaboutcode
+aboutme_url: https://about.me/panthomakos
+feedburner_rss_url: http://feeds.feedburner.com/ablogaboutcode
+feedburner_email_url: http://feedburner.google.com/fb/a/mailverify?uri=ablogaboutcode&amp;loc=en_US
+disqus:
+  shortname: ablogaboutcode
+
+feed:
+  path: atom.xml
 
 url: http://ablogaboutcode.com/
 
-google:
-  tracking_id: UA-28969585-1
+google_analytics: UA-28969585-1
