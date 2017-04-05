@@ -70,7 +70,7 @@ config.after_initialize do
 end
 {% endhighlight %}
 
-## 2b. If you are using [Cucumber](http://cukes.info/), enable Sham in your features/support/env.rb file.</h2>
+## 2b. If you are using [Cucumber](http://cukes.info/), enable Sham in your features/support/env.rb file.
 
 {% highlight ruby %}
 require 'sham'

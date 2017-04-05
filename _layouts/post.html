@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div id="shareRoundIconsFooter"></div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+<script>
+  (function($){
+    jsSocials.setDefaults("twitter", {
+      via: "{{ site.twitter_username }}"
+    });
+    $("#shareRoundIconsFooter").jsSocials({
+      showLabel: false,
+      showCount: false,
+      shares: [
+        "email",
+        "twitter",
+        "facebook",
+        "googleplus",
+        "linkedin"
+      ]
+    });
+  })(jQuery);
+</script>
+
