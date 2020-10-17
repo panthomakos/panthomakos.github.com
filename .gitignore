@@ -1,4 +1,5 @@
 Gemfile.lock
+.jekyll-cache
 .sass-cache
 *.swp
 *.swo
